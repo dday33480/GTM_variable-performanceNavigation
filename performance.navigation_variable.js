@@ -1,7 +1,9 @@
 function () {
+
+  //Getting the performance.navigation value
     var navType = performance.navigation.type;
     
-    
+  //Convert the performance.navigation integer value to a string and return corresponding type in understandable text  
     if (navType === 0) {
       return "firstAccess";
       
